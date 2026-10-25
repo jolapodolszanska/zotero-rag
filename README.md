@@ -26,7 +26,7 @@ Pliki: `zotero_rag/zotero.py` (Zotero), `pdftext.py` (PDF→fragmenty), `store.p
 ## Użycie
 
 ```powershell
-git clone <adres-repo> zotero-rag
+git clone https://github.com/jolapodolszanska/zotero-rag.git
 cd zotero-rag
 uv sync                              # instalacja zależności
 uv run zotero-rag index              # indeksuj nowe/zmienione PDF-y (--full: od zera)
